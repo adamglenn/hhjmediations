@@ -2,6 +2,9 @@
 title: HHJ Mediations
 timezone: UTC
 collections:
+  education:
+    title: Education
+    output: true
   lists:
     title: Lists
     output: true
