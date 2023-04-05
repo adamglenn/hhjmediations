@@ -1,6 +1,6 @@
 ---
-layout: page
 title: Mediation
-permalink: /mediation/
+permalink: "/mediation/"
+layout: page
 ---
 

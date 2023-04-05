@@ -1,7 +1,7 @@
 ---
-layout: about
 title: About Heather H. Jones
-permalink: /about/
+permalink: "/about/"
+layout: about
 about: true
 ---
 

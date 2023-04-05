@@ -1,8 +1,11 @@
 ---
+title: Welcome To Jekyll
+date: 2023-04-04 05:10:06 Z
+categories:
+- jekyll
+- update
 layout: post
-subhead: "Mediation, Arbitration, and Dispute Resolution"
-date:   2023-04-04 01:10:06 -0400
-categories: jekyll update
+subhead: Mediation, Arbitration, and Dispute Resolution
 featured: true
 ---
 
