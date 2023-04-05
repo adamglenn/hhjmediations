@@ -8,9 +8,6 @@ collections:
   experience:
     title: Experience
     output: true
-  lists:
-    title: Lists
-    output: true
   posts:
     title: Posts
     output: true
