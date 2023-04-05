@@ -1,5 +1,6 @@
 ---
-title: Mediation, Arbitration, and Dispute Resolution
+title: Home
+subtitle: Mediation, Arbitration, and Dispute Resolution
 layout: home
 ---
 
