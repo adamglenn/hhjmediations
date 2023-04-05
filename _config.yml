@@ -5,6 +5,9 @@ collections:
   education:
     title: Education
     output: true
+  experience:
+    title: Experience
+    output: true
   lists:
     title: Lists
     output: true
