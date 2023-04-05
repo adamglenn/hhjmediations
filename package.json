@@ -1,0 +1,18 @@
+{
+  "name": "hhjmediations",
+  "version": "0.0.1",
+  "description": "HHJ Mediations",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/adamglenn/hhjmediations"
+  },
+  "author": "May Day <may.day@mail.wvu.edu>",
+  "license": "MIT",
+  "engines": {
+    "node": ">=16.19.1",
+    "npm": ">=6.14.4"
+  },
+  "dependencies": {
+    "bootstrap": "~5.1.1"
+  }
+}

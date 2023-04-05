@@ -1,0 +1,41 @@
+<header role="banner">
+
+    {%- assign default_paths = site.pages | map: "path" -%}
+    {%- assign page_paths = site.header_pages | default: default_paths -%}
+
+    {%- if page_paths -%}
+
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+          <a class="navbar-brand" href="{{ site.baseurl }}/"><img src="{{ '/assets/img/hhj-logo.svg' | relative_url }}" height="50px" width="233px" /></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="{{ site.baseurl }}/">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="{{ site.baseurl }}/about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="{{ site.baseurl }}/contact">Contact</a>
+              </li>
+            </ul>
+            <div class="d-flex align-items-center">
+     
+            <p class="mb-0 small">
+              <a class="mb-0 text-decoration-none text-dark" href="tel:3045459393">
+                <span class="fas fa-phone"></span> (304) 545-9393
+              </a><br>
+              <a class="mb-0 text-decoration-none text-dark" href="mailto:hhj@hhjmediations.com">
+                <span class="fas fa-envelope"></span> hhj@hhjmediations.com
+              </a>
+            </p>
+          </div>
+
+        </div>
+      </nav>
+    {%- endif -%}
+</header>
