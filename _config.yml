@@ -28,6 +28,6 @@ plugins:
 - jekyll-feed
 - jekyll-sitemap
 - jekyll-seo-tag
-destination:      ./docs
-incremental:      false
-regenerate:       true
+destination: "./docs"
+incremental: false
+regenerate: true
