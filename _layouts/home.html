@@ -8,12 +8,8 @@ layout: default
     <div class="row">
       <div class="col-xl-8">
         <div class="bg-light p-4 py-lg-5 pe-lg-5 ms-xl-n5 ps-lg-5 shadow text-hhj-blue">
-          {%- for post in site.posts -%}
-            {% if post.featured == true %}
 
-              <h1 class="display-4 hhj-bar">{{ page.subtitle | escape }}</h1>
-
-            {% endif %}
+            <h1 class="display-4 hhj-bar">{{ page.subtitle | escape }}</h1>
 
             <div class="fs-4">
               {{ content }}
@@ -22,7 +18,7 @@ layout: default
             <a class="btn btn-lg btn-outline-hhj-blue mt-2" href="{{ site.baseurl }}/contact">
               Contact HHJ Mediations <span class="fas fa-arrow-circle-right"></span>
             </a>
-          {%- endfor -%}
+
         </div>
       </div>
     </div>
