@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<main class="py-5" style="background-image: url('{{ '/assets/img/shake.jpg' | relative_url }}'); background-size: cover; background-position: center;">
+<main class="py-5" style="background-image: url('{{ site.url }}/assets/img/shake.jpg'); background-size: cover; background-position: center;">
   <div class="container">
 
     <div class="row">
@@ -46,7 +46,7 @@ layout: default
   </div>
 </section>
 
-<section id="about" class="text-white py-4" style="background-image: url('{{ '/assets/img/wv.jpg' | relative_url }}'); background-size: cover; background-attachment: fixed;">
+<section id="about" class="text-white py-4" style="background-image: url('{{ site.url }}/assets/img/wv.jpg'); background-size: cover; background-attachment: fixed;">
 
   <div class="container">
     <div class="bg-hhj-blue p-4 p-lg-5">
@@ -54,7 +54,7 @@ layout: default
         <div class="col-12 col-sm-4 col-xl-2 text-center mb-3 mb-xl-0">
           <div class="px-5 px-sm-0">
             <div class="ms-xl-n6 pe-xl-2">
-              <img loading="lazy" class="rounded-circle border border-5 border-hhj-gold w-100 shadow mb-1" src="{{ '/assets/img/hhj.jpg' | relative_url }}" alt="Heather H. Jones portrait" />
+              <img loading="lazy" class="rounded-circle border border-5 border-hhj-gold w-100 shadow mb-1" src="{{ site.url }}/assets/img/hhj.jpg" alt="Heather H. Jones portrait" />
             </div>
           </div>
         </div>
@@ -70,7 +70,7 @@ layout: default
             {% endif %}
           {% endfor %}
 
-          <p><a class="text-hhj-gold text-decoration-none" href="{{ site.baseurl }}/about">More About Heather <span class="fas fa-arrow-circle-right"></span></a></p>
+          <p><a class="text-hhj-gold text-decoration-none" href="{{ site.url }}/about">More About Heather <span class="fas fa-arrow-circle-right"></span></a></p>
 
         </div>
 
