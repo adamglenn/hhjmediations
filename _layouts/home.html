@@ -78,25 +78,9 @@ layout: default
             <h3 class="text-uppercase h6 text-hhj-gold">Specialties</h3>
 
             <ul class="list-unstyled small">
-              <li>Business</li>
-              <li>Class Actions</li>
-              <li>Contract Disputes</li>
-              <li>Employment Law (Discrimination and Sexual Harassment)</li>
-              <li>Employer Liability (Deliberate Intent)</li>
-              <li>Healthcare</li>
-              <li>Insurance Coverage and Bad Faith</li>
-              <li>Personal Injury</li>
-              <li>Medical Devices and Pharmaceuticals</li>
-              <li>Medical Malpractice</li>
-              <li>Medical Monitoring</li>
-              <li>Motor Carrier Disputes</li>
-              <li>Nursing Home Liability</li>
-              <li>Product Liability</li>
-              <li>Slander of Title</li>
-              <li>Toxic Torts</li>
-              <li>Trespass</li>
-              <li>Trucking Accidents</li>
-              <li>Other</li>
+              {% for specialty in site.specialties %}
+                <li>{{ specialty.title }}<li>
+              {% endfor %}
             </ul>
           </div>
         </div>
