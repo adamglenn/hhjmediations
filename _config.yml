@@ -24,6 +24,18 @@ defaults:
   values:
     institution: ''
     time-period: ''
+- scope:
+    type: education
+  values:
+    degree: ''
+- scope:
+    type: volunteering
+  values:
+    organization: ''
+- scope:
+    type: organizations
+  values:
+    role: ''
 email: hhj@hhjmediations.com
 description: Mediations, arbitration, and disupte resolutions in West Virginia
 baseurl: ''
