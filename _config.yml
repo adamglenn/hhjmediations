@@ -18,12 +18,12 @@ collections:
     title: Uploads
     output: true
 defaults:
-  -
-    scope:
-      type: "experience"
-    values:
-      institution: ""
-      time-period: ""
+- scope:
+    path: ''
+    type: experience
+  values:
+    institution: ''
+    time-period: ''
 email: hhj@hhjmediations.com
 description: Mediations, arbitration, and disupte resolutions in West Virginia
 baseurl: ''
