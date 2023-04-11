@@ -41,7 +41,7 @@ defaults:
     role: ''
 email: hhj@hhjmediations.com
 description: Mediations, arbitration, and disupte resolutions in West Virginia
-baseurl: ''
+baseurl: 
 url: https://adamglenn.github.io/hhjmediations/
 twitter_username: jekyllrb
 github_username: jekyll
