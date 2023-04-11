@@ -16,6 +16,14 @@ layout: page
         <h2 class="h6 text-uppercase border-top border-1 pt-1 mt-3">Specialties</h2>
 
         <ul class="list-unstyled small" style="columns: 2">
+          {% for specialty in site.specialties %}
+            <li>{{ specialty.title }}<li>
+          {% endfor %}
+        </ul>
+
+        <h2 class="h6 text-uppercase border-top border-1 pt-1 mt-3">Specialties</h2>
+
+        <ul class="list-unstyled small" style="columns: 2">
           <li>Business</li>
           <li>Class Actions</li>
           <li>Contract Disputes</li>
