@@ -25,14 +25,17 @@ defaults:
     institution: ''
     time-period: ''
 - scope:
+    path: ''
     type: education
   values:
     degree: ''
 - scope:
+    path: ''
     type: volunteering
   values:
     organization: ''
 - scope:
+    path: ''
     type: organizations
   values:
     role: ''
