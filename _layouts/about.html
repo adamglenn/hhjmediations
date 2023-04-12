@@ -16,7 +16,8 @@ layout: page
         <h2 class="h6 text-uppercase border-top border-1 pt-1 mt-3">Specialties</h2>
 
         <ul class="small" style="columns: 2">
-          {% for specialty in site.specialties %}
+          {% assign specialties = site.specialties | sort: "position" %}
+          {% for specialty in specialties %}
             <li>{{ specialty.title }}</li>
           {% endfor %}
         </ul>
@@ -24,7 +25,8 @@ layout: page
         <h2 class="h6 text-uppercase border-top border-1 pt-1 mt-3">Experience</h2>
 
         <ul class="small">
-          {% for experienceItem in site.experience %}
+          {% assign experiences = site.experience | sort: "position" %}
+          {% for experienceItem in experiences %}
             <li>
               <strong>{{ experienceItem.title }}</strong><br>
               {{ experienceItem.institution }}<br>
@@ -35,9 +37,9 @@ layout: page
 
         <h2 class="h6 text-uppercase border-top border-1 pt-1 mt-3">Education</h2>
 
-
         <ul class="small">
-          {% for educationItem in site.education %}
+          {% assign educations = site.education | sort: "position" %}
+          {% for educationItem in educations %}
             <li>
               <strong>{{ educationItem.title }}</strong><br>
               {{ educationItem.degree }}
@@ -47,33 +49,44 @@ layout: page
 
         <h2 class="h6 text-uppercase border-top border-1 pt-1 mt-3">Licences and Certificates</h2>
         <ul class="small">
-          <li><strong>United States Court of Appeals for the Fourth Circuit</strong></li>
-          <li><strong>United States District Courts for the Northern and Southern Districts of West Virginia</strong></li>
-          <li><strong>West Virginia State Bar</strong></li>
-          <li><strong>West Virginia Supreme Court of Appeals</strong></li>
+          {% assign licenses = site.licenses-and-certificates | sort: "position" %}
+          {% for license in licenses %}
+            <li>
+              <strong>{{ license.title }}</strong>
+            </li>
+          {% endfor %}
         </ul>
 
         <h2 class="h6 text-uppercase border-top border-1 pt-1 mt-3">Volunteering</h2>
         <ul class="small">
-          <li><strong>Past Board Member</strong><br>West Virginia University Alumni Board</li>
-          <li><strong>Past Board Member</strong><br>United Way</li>
-          <li><strong>Past Board Member</strong><br>Sunrise / Clay Center</li>
+          {% assign volunteering = site.volunteering | sort: "position" %}
+          {% for volunteeringItem in volunteering %}
+            <li>
+              <strong>{{ volunteeringItem.title }}</strong><br>
+              {{ volunteeringItem.organization }}
+            </li>
+          {% endfor %}
         </ul>
 
         <h2 class="h6 text-uppercase border-top border-1 pt-1 mt-3">Honors & Awards</h2>
         <ul class="small">
-          <li><strong>AV® Preeminent™ Peer-Review Rated by Martindale-Hubbell</strong></li>
-          <li><strong>Fellow, West Virginia Bar Foundation</strong></li>
-          <li><strong>Listed in West Virginia Super Lawyers®</strong></li>
-          <li><strong>Nominated by her peers for inclusion in The Best Lawyers in America® in the fields Mass Tort Litigation/Class Actions - Defendants and Personal Injury Litigation - Defendants</strong></li>
-          <li><strong>Ranked in Chambers USA: America's Leading Lawyers for Business for Litigation: General Commercial</strong></li>
+          {% assign honors = site.honors-and-awards | sort: "position" %}
+          {% for honor in honors %}
+            <li>
+              <strong>{{ honor.title }}</strong>
+            </li>
+          {% endfor %}
         </ul>
 
         <h2 class="h6 text-uppercase border-top border-1 pt-1 mt-3">Organizations</h2>
         <ul class="small">
-          <li><strong>Leadership West Virginia</strong><span class="d-block">Participant · Jan 1995 - Jan 1996</span></li>
-          <li><strong>Fourth Circuit Judicial Conference</strong><span class="d-block">Permanent Member</span></li>
-          <li><strong>West Virginia State Bar Foundation</strong><span class="d-block">Past President</span></li>
+          {% assign organizations = site.organizations | sort: "position" %}
+          {% for organization in organizations %}
+            <li>
+              <strong>{{ organization.title }}</strong><br>
+              {{ organization.role }}
+            </li>
+          {% endfor %}
         </ul>
 
       </div>

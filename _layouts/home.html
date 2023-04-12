@@ -78,7 +78,8 @@ layout: default
             <h3 class="text-uppercase h6 text-hhj-gold">Specialties</h3>
 
             <ul class="list-unstyled small">
-              {% for specialty in site.specialties %}
+              {% assign specialties = site.specialties | sort: "position" %}
+              {% for specialty in specialties %}
                 <li>{{ specialty.title }}</li>
               {% endfor %}
             </ul>
