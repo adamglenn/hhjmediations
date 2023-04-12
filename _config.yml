@@ -43,6 +43,11 @@ defaults:
     degree: ''
 - scope:
     path: ''
+    type: licenses-and-certificates
+  values:
+    institution: ''
+- scope:
+    path: ''
     type: volunteering
   values:
     organization: ''
