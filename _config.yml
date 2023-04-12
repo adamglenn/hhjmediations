@@ -20,6 +20,9 @@ collections:
   uploads:
     title: Uploads
     output: true
+  volunteering:
+    title: Volunteering
+    output: true
 defaults:
 - scope:
     path: ''
