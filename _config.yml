@@ -8,6 +8,9 @@ collections:
   experience:
     title: Experience
     output: true
+  honors-and-awards:
+    title: Honors & Awards
+    output: true
   licenses-and-certificates:
     title: Licenses and Certificates
     output: true
