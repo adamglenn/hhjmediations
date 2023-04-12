@@ -52,9 +52,10 @@ defaults:
   values:
     role: ''
 - scope:
+    path: ''
     type: pages
   values:
-    layout: page
+    layout: 'page'
 email: hhj@hhjmediations.com
 description: Mediations, arbitration, and disupte resolutions in West Virginia
 baseurl: 
