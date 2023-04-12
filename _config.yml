@@ -61,8 +61,8 @@ url: https://adamglenn.github.io/hhjmediations/
 facebook_url: ''
 instagram_url: ''
 linkedin_url: https://www.linkedin.com/in/heatherheiskelljones/
-address_line_1: '11 Moosemont Road'
-address_line_2: 'Charleston, WV 25304'
+address_line_1: 11 Moosemont Road
+address_line_2: Charleston, WV 25304
 theme: minima
 plugins:
 - jekyll-feed
