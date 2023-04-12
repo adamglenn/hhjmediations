@@ -1,6 +1,7 @@
 ---
 title: About Heather H. Jones
 permalink: "/about/"
+position: 1
 navbar_title: About
 layout: about
 about: true
