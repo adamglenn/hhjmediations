@@ -5,4 +5,4 @@ subtitle: Mediation, Arbitration, and Dispute Resolution
 layout: home
 ---
 
-Whether you need mediation, arbitration, or other forms of dispute resolution, HHJ Mediations can help you arrive at a fair and neutral outcome. Both in-person and virtual options available.
+Alternative Dispute Resolution, including mediation and arbitration, provides the opportunity for individuals and entities to resolve disputes in an efficient, swift, and less costly manner than litigation in the civil court system. HHJ Mediations provides virtual and in-person services for alternative dispute resolution. 
