@@ -63,7 +63,7 @@ instagram_url:
 linkedin_url: https://www.linkedin.com/in/heatherheiskelljones/
 address_line_1: 11 Moosemont Road
 address_line_2: Charleston, WV 25304
-phone: (304) 545-9393
+phone: "(304) 545-9393"
 theme: minima
 plugins:
 - jekyll-feed
