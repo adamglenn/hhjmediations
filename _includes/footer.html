@@ -12,21 +12,27 @@
     <p><a class="text-dark text-decoration-none" href="tel:{{ site.phone }}"><span class="fas fa-phone"></span> {{ site.phone }}</a><br><a class="text-dark text-decoration-none" href="mailto:{{ site.email }}"><span class="fas fa-envelope"></span> {{ site.email }}</a></p>
 
     <ul class="list-inline mb-2 me-2 fs-5">
-      <li class="list-inline-item">
-        <a class="mb-0 text-decoration-none text-dark" href="{{ site.facebook_url }}">
-          <span class="fab fa-facebook"></span><span class="visually-hidden">Facebook</span>
-        </a>
-      </li>
-      <li class="list-inline-item">
-        <a class="mb-0 text-decoration-none text-dark" href="{{ site.instagram_url }}">
-          <span class="fab fa-instagram"></span><span class="visually-hidden">Instagram</span>
-        </a>
-      </li>
-      <li class="list-inline-item">
-        <a class="mb-0 text-decoration-none text-dark" href="{{ site.instagram_url }}">
-          <span class="fab fa-linkedin"></span><span class="visually-hidden">LinkedIn</span>
-        </a>
-      </li>
+      {% if site.facebook_url %}
+        <li class="list-inline-item">
+          <a class="mb-0 text-decoration-none text-dark" href="{{ site.facebook_url }}">
+            <span class="fab fa-facebook"></span><span class="visually-hidden">Facebook</span>
+          </a>
+        </li>
+      {% endif %}
+      {% if site.instagram_url %}
+        <li class="list-inline-item">
+          <a class="mb-0 text-decoration-none text-dark" href="{{ site.instagram_url }}">
+            <span class="fab fa-instagram"></span><span class="visually-hidden">Instagram</span>
+          </a>
+        </li>
+      {% endif %}
+      {% if site.linkedin_url %}
+        <li class="list-inline-item">
+          <a class="mb-0 text-decoration-none text-dark" href="{{ site.linkedin_url }}">
+            <span class="fab fa-linkedin"></span><span class="visually-hidden">LinkedIn</span>
+          </a>
+        </li>
+      {% endif %}
     </ul>
 
     <div class="footer-col footer-col-3">
