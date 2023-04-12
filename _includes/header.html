@@ -16,7 +16,7 @@
                 {%- assign my_page = site.pages | where: "path", path | first -%}
                 {%- if my_page.title -%}
                   <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="{{ site.url }}/{{ my_page.url }}">{{ my_page.navbar_title | default: my_page.title | escape }}</a>
+                    <a class="nav-link" aria-current="page" href="{{ site.url }}{{ my_page.url }}">{{ my_page.navbar_title | default: my_page.title | escape }}</a>
                   </li>
                 {%- endif -%}
               {%- endfor -%}
