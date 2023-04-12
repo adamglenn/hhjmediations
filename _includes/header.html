@@ -14,7 +14,7 @@
               {% assign pagePaths = page_paths %}
               {%- for path in pagePaths -%}
                 {%- assign my_page = site.pages | where: "path", path | first -%}
-                {%- if my_page.title and my_page.published != false -%}
+                {%- if my_page.title and my_page.hide_from_nav != true -%}
                   <li class="nav-item">
                     <a class="nav-link" aria-current="page" href="{{ site.url }}{{ my_page.url }}">{{ my_page.navbar_title | default: my_page.title | escape }}</a>
                   </li>
