@@ -58,7 +58,7 @@ layout: default
           {% assign licenses = site.licenses-and-certificates | sort: "position" %}
           {% for license in licenses %}
             <li>
-              <strong>{{ license.title }}</strong>{%- if license.institution -%}<br>
+              <strong>{{ license.title }}</strong>{%- if license.institution != '' -%}<br>
               {{ license.institution }}{%- endif -%}
             </li>
           {% endfor %}
