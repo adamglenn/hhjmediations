@@ -5,7 +5,7 @@ position: 2
 layout: page
 ---
 
-<section class="py-5">
+<main class="py-5">
 	<div class="container">
 		<p class="mb-3">
         <a class="mb-0 text-decoration-none text-dark me-2" href="tel:{{ site.phone }}">
@@ -17,4 +17,4 @@ layout: page
       </p>
 	  {% include contact.html %}
 	</div>
-</section>
+</main>
