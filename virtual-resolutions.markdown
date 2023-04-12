@@ -1,7 +1,6 @@
 ---
 title: Virtual Resolutions
 date: 2023-04-12 19:10:00 Z
-published: false
 position: 3
 ---
 
