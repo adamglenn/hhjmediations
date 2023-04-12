@@ -161,4 +161,7 @@
 <url>
 <loc>http://localhost:4000/</loc>
 </url>
+<url>
+<loc>http://localhost:4000/virtual-resolutions.html</loc>
+</url>
 </urlset>
