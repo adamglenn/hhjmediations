@@ -5,9 +5,6 @@ collections:
   education:
     title: Education
     output: true
-  experience:
-    title: Experience
-    output: true
   honors-and-awards:
     title: Honors & Awards
     output: true
@@ -28,6 +25,9 @@ collections:
     output: true
   volunteering:
     title: Volunteering
+    output: true
+  work-history:
+    title: Work History
     output: true
 defaults:
 - scope:
