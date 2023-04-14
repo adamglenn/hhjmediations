@@ -85,17 +85,6 @@ layout: default
           {% endfor %}
         </ul>
 
-        <h2 class="h6 text-uppercase border-top border-1 pt-1 mt-3">Organizations</h2>
-        <ul class="small">
-          {% assign organizations = site.organizations | sort: "position" %}
-          {% for organization in organizations %}
-            <li>
-              <strong>{{ organization.title }}</strong><br>
-              {{ organization.role }}
-            </li>
-          {% endfor %}
-        </ul>
-
       </div>
 
     </div>
