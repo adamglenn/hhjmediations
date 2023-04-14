@@ -17,9 +17,10 @@ collections:
   posts:
     title: Posts
     output: true
-  specialties:
+  experience:
     title: Specialties
     output: true
+    permalink: Experience
   uploads:
     title: Uploads
     output: true
