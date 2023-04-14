@@ -93,9 +93,9 @@ layout: default
             <h3 class="text-uppercase h6 text-hhj-gold">Experience</h3>
 
             <ul class="list-unstyled small">
-              {% assign specialties = site.specialties | sort: "position" %}
-              {% for specialty in specialties %}
-                <li>{{ specialty.title }}</li>
+              {% assign experience = site.experience | sort: "position" %}
+              {% for experienceItem in experience %}
+                <li>{{ experienceItem.title }}</li>
               {% endfor %}
             </ul>
           </div>

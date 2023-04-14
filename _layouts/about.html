@@ -22,21 +22,21 @@ layout: default
         <h2 class="h6 text-uppercase border-top border-1 pt-1 mt-3">Experience</h2>
 
         <ul class="small" style="columns: 2">
-          {% assign specialties = site.specialties | sort: "position" %}
-          {% for specialty in specialties %}
-            <li>{{ specialty.title }}</li>
+          {% assign experience = site.experience | sort: "position" %}
+          {% for experienceItem in experience %}
+            <li>{{ experienceItem.title }}</li>
           {% endfor %}
         </ul>
 
-        <h2 class="h6 text-uppercase border-top border-1 pt-1 mt-3">Employment History</h2>
+        <h2 class="h6 text-uppercase border-top border-1 pt-1 mt-3">Work History</h2>
 
         <ul class="small">
-          {% assign experiences = site.experience | sort: "position" %}
-          {% for experienceItem in experiences %}
+          {% assign work-history = site.work-history| sort: "position" %}
+          {% for workHistoryItem in work-history %}
             <li>
-              <strong>{{ experienceItem.title }}</strong><br>
-              {{ experienceItem.institution }}<br>
-              {{ experienceItem.time-period }}
+              <strong>{{ workHistoryItem.title }}</strong><br>
+              {{ workHistoryItem.institution }}<br>
+              {{ workHistoryItem.time-period }}
             </li>
           {% endfor %}
         </ul>
