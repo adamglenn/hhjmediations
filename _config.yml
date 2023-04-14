@@ -8,7 +8,7 @@ collections:
   experience:
     title: Experience
     output: true
-    permalink: Experience
+    permalink: /:path
   honors-and-awards:
     title: Honors & Awards
     output: true
@@ -33,7 +33,7 @@ collections:
 defaults:
 - scope:
     path: ''
-    type: experience
+    type: work-history
   values:
     institution: ''
     time-period: ''
@@ -63,6 +63,11 @@ defaults:
   values:
     layout: page
     hide_from_nav: ''
+- scope:
+    path: ''
+    type: experience
+  values:
+    layout: page
 email: hhj@hhjmediations.com
 description: Mediations, arbitration, and disupte resolutions in West Virginia
 baseurl: 
