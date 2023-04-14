@@ -14,9 +14,6 @@ collections:
   licenses-and-admissions:
     title: Licenses and Admissions
     output: true
-  organizations:
-    title: Organizations
-    output: true
   posts:
     title: Posts
     output: true
