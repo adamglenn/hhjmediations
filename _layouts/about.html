@@ -31,7 +31,7 @@ layout: default
         <h2 class="h6 text-uppercase border-top border-1 pt-1 mt-3">Work History</h2>
 
         <ul class="small">
-          {% assign work-history = site.work-history| sort: "position" %}
+          {% assign work-history = site.work-history | sort: "position" %}
           {% for workHistoryItem in work-history %}
             <li>
               <strong>{{ workHistoryItem.title }}</strong><br>
@@ -55,7 +55,7 @@ layout: default
 
         <h2 class="h6 text-uppercase border-top border-1 pt-1 mt-3">Licenses and Admissions</h2>
         <ul class="small">
-          {% assign licenses = site.licenses-and-certificates | sort: "position" %}
+          {% assign licenses = site.licenses-and-admissions | sort: "position" %}
           {% for license in licenses %}
             <li>
               <strong>{{ license.title }}</strong>{%- if license.institution != '' -%}<br>

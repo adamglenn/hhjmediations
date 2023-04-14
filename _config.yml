@@ -40,7 +40,7 @@ defaults:
     degree: ''
 - scope:
     path: ''
-    type: licenses-and-certificates
+    type: licenses-and-admissions
   values:
     institution: ''
 - scope:
@@ -48,11 +48,6 @@ defaults:
     type: volunteering
   values:
     organization: ''
-- scope:
-    path: ''
-    type: organizations
-  values:
-    role: ''
 - scope:
     path: ''
     type: pages
