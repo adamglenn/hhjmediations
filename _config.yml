@@ -5,6 +5,10 @@ collections:
   education:
     title: Education
     output: true
+  experience:
+    title: Experience
+    output: true
+    permalink: Experience
   honors-and-awards:
     title: Honors & Awards
     output: true
@@ -17,10 +21,6 @@ collections:
   posts:
     title: Posts
     output: true
-  experience:
-    title: Specialties
-    output: true
-    permalink: Experience
   uploads:
     title: Uploads
     output: true
