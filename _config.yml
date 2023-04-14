@@ -8,7 +8,7 @@ collections:
   experience:
     title: Experience
     output: true
-    permalink: /:path
+    permalink: "/:path"
   honors-and-awards:
     title: Honors & Awards
     output: true
