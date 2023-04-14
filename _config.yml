@@ -11,7 +11,7 @@ collections:
   honors-and-awards:
     title: Honors & Awards
     output: true
-  licenses-and-certificates:
+  licenses-and-admissions:
     title: Licenses and Admissions
     output: true
   organizations:
