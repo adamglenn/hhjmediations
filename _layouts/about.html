@@ -19,7 +19,7 @@ layout: default
 
         {{ content }}
 
-        <h2 class="h6 text-uppercase border-top border-1 pt-1 mt-3">Specialties</h2>
+        <h2 class="h6 text-uppercase border-top border-1 pt-1 mt-3">Experience</h2>
 
         <ul class="small" style="columns: 2">
           {% assign specialties = site.specialties | sort: "position" %}
@@ -28,7 +28,7 @@ layout: default
           {% endfor %}
         </ul>
 
-        <h2 class="h6 text-uppercase border-top border-1 pt-1 mt-3">Experience</h2>
+        <h2 class="h6 text-uppercase border-top border-1 pt-1 mt-3">Employment History</h2>
 
         <ul class="small">
           {% assign experiences = site.experience | sort: "position" %}
