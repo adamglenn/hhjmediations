@@ -1,8 +1,8 @@
 ---
-title: About Heather Jones
+title: Experience
 permalink: "/about/"
 position: 1
-navbar_title: About
+navbar_title: Experience
 about: true
 layout: about
 ---
