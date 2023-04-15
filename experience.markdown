@@ -1,6 +1,6 @@
 ---
 title: Experience
-permalink: "/about/"
+permalink: "/experience/"
 position: 1
 navbar_title: Experience
 about: true
