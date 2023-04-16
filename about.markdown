@@ -2,6 +2,8 @@
 title: About Heather Jones
 permalink: "/about/"
 position: 1
+subhead: Offering impartial, neutral, and fair alternative dispute resolution services
+  in West Virginia and other States.
 navbar_title: About
 about: true
 layout: about
