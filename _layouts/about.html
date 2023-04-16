@@ -81,6 +81,16 @@ layout: default
           </li>
         </ul>
 
+        <h2 class="h6 text-uppercase border-top border-1 pt-1 mt-3">Personal</h2>
+        <ul class="small">
+          {% assign personalItems = site.personal | sort: "position" %}
+          {% for personalItem in personalItems %}
+            <li>
+              <strong>{{ personalItem.title }}</strong>
+            </li>
+          {% endfor %}
+        </ul>
+
       </div>
 
     </div>
