@@ -1,6 +1,6 @@
 ---
 title: About Heather Jones
-permalink: "/experience/"
+permalink: "/about/"
 position: 1
 navbar_title: About
 about: true
