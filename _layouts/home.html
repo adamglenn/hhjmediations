@@ -65,25 +65,12 @@ layout: default
             {% if page.about == true %}
 
               <h2 id="about-label" class="display-4">Heather Jones</h2>
-              <h3 class="lead fs-3">Offering impartial, neutral, and fair alternative resolution services in West Virginia.</h3>
+              <h3 class="lead fs-3">Offering impartial, neutral, and fair alternative resolution services in West Virginia and other States.</h3>
 
               {{ page.content }}
 
             {% endif %}
           {% endfor %}
-
-          <h2 class="h6 text-uppercase border-top border-1 pt-1 mt-3">Education</h2>
-
-          <ul class="small list-unstyled ">
-            {% assign educations = site.education | sort: "position" %}
-            {% for educationItem in educations %}
-              <li class="ps-2 position-relative">
-                <span class="fas fa-chevron-right position-absolute text-hhj-gold ms-n2" style="margin-top: 4px;"></span>
-                <strong>{{ educationItem.title }}</strong><br>
-                {{ educationItem.degree }}
-              </li>
-            {% endfor %}
-          </ul>
 
           <p><a class="text-hhj-gold text-decoration-none" href="{{ site.url }}/experience">More About Heather <span class="fas fa-arrow-circle-right"></span></a></p>
 
