@@ -20,14 +20,14 @@ collections:
   posts:
     title: Posts
     output: true
+  professional-career:
+    title: Professional Career
+    output: true
   uploads:
     title: Uploads
     output: true
   volunteering:
     title: Volunteering
-    output: true
-  work-history:
-    title: Work History
     output: true
 defaults:
 - scope:
