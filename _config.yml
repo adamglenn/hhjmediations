@@ -32,7 +32,7 @@ collections:
 defaults:
 - scope:
     path: ''
-    type: work-history
+    type: professional-career
   values:
     institution: ''
     time-period: ''
