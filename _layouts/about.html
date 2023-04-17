@@ -53,17 +53,6 @@ layout: default
           {% endfor %}
         </ul>
 
-        <h2 class="h6 text-uppercase border-top border-1 pt-1 mt-3">Volunteering</h2>
-        <ul class="small">
-          {% assign volunteering = site.volunteering | sort: "position" %}
-          {% for volunteeringItem in volunteering %}
-            <li>
-              <strong>{{ volunteeringItem.title }}</strong><br>
-              {{ volunteeringItem.organization }}
-            </li>
-          {% endfor %}
-        </ul>
-
         <h2 class="h6 text-uppercase border-top border-1 pt-1 mt-3">Honors & Awards</h2>
         <ul class="small">
           {% assign honors = site.honors-and-awards | sort: "position" %}
@@ -81,12 +70,13 @@ layout: default
           </li>
         </ul>
 
-        <h2 class="h6 text-uppercase border-top border-1 pt-1 mt-3">Personal</h2>
+        <h2 class="h6 text-uppercase border-top border-1 pt-1 mt-3">Volunteering</h2>
         <ul class="small">
-          {% assign personalItems = site.personal | sort: "position" %}
-          {% for personalItem in personalItems %}
+          {% assign volunteering = site.volunteering | sort: "position" %}
+          {% for volunteeringItem in volunteering %}
             <li>
-              <strong>{{ personalItem.title }}</strong>
+              <strong>{{ volunteeringItem.title }}</strong><br>
+              {{ volunteeringItem.organization }}
             </li>
           {% endfor %}
         </ul>
