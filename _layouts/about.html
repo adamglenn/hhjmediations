@@ -59,6 +59,9 @@ layout: default
           {% for honor in honors %}
             <li>
               <strong>{{ honor.title }}</strong>
+              {% if honor.content %}
+                {{ honor.content }}
+              {% endif %}
             </li>
           {% endfor %}
         </ul>
