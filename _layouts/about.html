@@ -66,7 +66,7 @@ layout: default
           {% assign honors = site.honors-and-awards | sort: "position" %}
           {% for honor in honors %}
             <li>
-              <strong>{{ honor.title }}</strong>
+              <strong>{{ honor.alternateTitle | default: honor.title }}</strong>
               {% if honor.content %}
                 {{ honor.content }}
               {% endif %}
